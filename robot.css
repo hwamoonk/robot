@@ -48,3 +48,12 @@ transition: 1s;}
 .img1{}
 .img2{background: url('img/dota2.jpg') right/cover no-repeat ;}
 .img3{background: url('img/apex.jpg') right/cover no-repeat ;}
+
+
+
+@media(max-width: 1200px){
+.menu{display: block;}
+.header-btn{width: 300px;}
+.section-title{font-size: 60px;}
+.section-text{font-size: 35px;}	
+}

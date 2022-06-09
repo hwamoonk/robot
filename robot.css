@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto',sans-serif;}
+.container{max-width: 1000px;margin: 0 auto;}
+.section-title{color: #65DAFF;font-size: 30px;font-weight: 700;text-align: center;}
+.section-text{color: white;font-weight: 300;font-size: 20px;line-height: 35px;}
+body{background-color: #222222;}
+
+
+
+.menu{position: fixed;background-color: #222222;width: 100%;height: 80px;box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);line-height: 80px;z-index: 100;}
+.logo{color: white;text-decoration: none;font-size: 25px;}
+.main-btn{float: right;}
+.nav-item{color: white;text-decoration: none;font-size: 16px;font-weight: 700;margin-left: 10px;transition: 0.5s;}
+.nav-item:hover{text-shadow: 2px 2px 5px #65DAFF;color:#65DAFF ;}
+
+
+.header{background-image:url('img/1.jpg') ;background-repeat: no-repeat;background-size: cover;height: 100vh;position: relative;}
+.header-content{position: absolute;left: 0px;top: 50%;transform: translateY(-50%);padding-left: 20px;width: 50%;}
+.header-title{font-size: 80px;color: #4E4E4E;font-weight: 900;}
+.header-sub-title{font-size: 30px;color:#4E4E4E ;margin-bottom: 10px;}
+.header-btn{display: block; width: fit-content; text-decoration: none;color: white;background: linear-gradient(45deg, #65DAFF, #70FFCB);padding: 15px 50px;
+transition: 1s;}
+.header-btn:hover{transform: scale(1.1);}
+.header-btn:active{background: linear-gradient(45deg, #347083, #388065);}
+
+
+
+
+
+.about{text-align: center;height: 40vh;}
+.about-card{display: inline-block;width: 24%;height: 200px;text-align: center;vertical-align: top;margin-top: 100px;}
+.about-card-title{color: #65DAFF ;font-size:23px ;}
+.about-card-img{height: 100px;margin-bottom: 30px;}
+
+
+
+.games{}
+.games-container{margin-top: 100px;box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);padding: 30px 0;text-align: center;}
+.games-card{}
+.games-card-content{display: inline-block;width: 49%;min-height: 350px;vertical-align: top;margin-top: 10px;margin-left: 10px;}
+.game1{}
+.game2{}
+.game3{}
+.game-title{color: #70FFCB ;font-size: 25px;text-align: left;}
+.game-hr{background-color:  #70FFCB;width: 125px;height: 4px;margin-top: 20px;}
+.game-discription{text-align: left;margin-top: 25px;margin-left: 10px;}
+.games-card-img{background: url('img/csgo.jpg') left/cover no-repeat ;width: 49%;height: 350px;display: inline-block;vertical-align: top;}
+.img1{}
+.img2{background: url('img/dota2.jpg') right/cover no-repeat ;}
+.img3{background: url('img/apex.jpg') right/cover no-repeat ;}

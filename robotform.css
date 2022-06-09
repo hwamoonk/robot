@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{margin: 0;padding: 0;font-family: 'Roboto';box-sizing: border-box;}
+body{background-color: #222222;}
+.form{width: 70%;background-color: #222222;box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);margin: 50px auto;}
+.form-head{background-color:  #65DAFF;color: white;height: 50px;text-align: center;position: relative;}
+.btn-back{position: absolute;left: 0;top: 0;width: 50px;height: 50px;background-color: white;color: black;text-decoration: none;font-size: 20px;
+	font-weight: 700;line-height: 50px;transition: 1s;}
+.btn-back:hover{background-color:#70FFCB ;}	
+.btn-back:active{background-color: #222222}
+.form-body{padding: 30px;color: white;}
+.fname,.sname{background: none;border: none;border-bottom: 1px solid white;padding:20px ;width: 100%;color: white;outline: none;}
+.input-wrapper{margin: 30px 0 ;}
+.male-radio{margin-right: 10px;margin-top: 20px;}
+.female-radio{margin-right: 10px;margin-left: 30px;margin-top: 20px;}
+.age{margin-right: 10px;}
+.comment{background: none;border: 1px solid white;width: 100%;max-height: 200px;height: 200px;display: block;outline: none;padding: 15px;
+	margin-bottom: 30px;resize: none;color: white;}
+.submit{display: block; width: fit-content; text-decoration: none;color: white;background: linear-gradient(45deg, #65DAFF, #70FFCB);padding: 25px 70px;
+transition: 1s;margin: 20px auto;}
+.submit:hover{transform: scale(1.1);}
+.submit:active{background: linear-gradient(45deg, #347083, #388065);} 
+.nickname{padding: 20px;}
